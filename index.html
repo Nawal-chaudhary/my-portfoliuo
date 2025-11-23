@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nawal Chaudhary | Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+    <!-- HEADER WITH PHOTO -->
+    <header class="header">
+        <div class="profile-box">
+            <img src="WhatsApp Image 2025-11-23 at 10.08.19_12364ccb.jpg" alt="Nawal Photo" class="profile-img">
+            
+            <h1 class="profile-name">Nawal Chaudhary</h1>
+
+            <p class="profile-desc">
+                Student of Biratnagar International College (Faculty: BIT),<br>
+                Second Year — Affiliated to University of Wolverhampton
+            </p>
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h2>Hello, I'm <span class="highlight">Nawal Chaudhary</span></h2>
+            <p>An aspiring software developer passionate about creating modern digital solutions.</p>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about-section">
+        <h2>About Me</h2>
+        <p>I am a motivated learner focused on improving my programming skills. I enjoy building real-world applications using modern technologies.</p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects-section">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">Face Recognition System</div>
+            <div class="project-card">Weather App</div>
+            <div class="project-card">Banking System</div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills-section">
+        <h2>My Skills</h2>
+
+        <div class="skill">
+            <p>HTML</p>
+            <div class="skill-bar">
+                <span class="skill-level" data-level="90%"></span>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>CSS</p>
+            <div class="skill-bar">
+                <span class="skill-level" data-level="85%"></span>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="skill-bar">
+                <span class="skill-level" data-level="70%"></span>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>Python</p>
+            <div class="skill-bar">
+                <span class="skill-level" data-level="75%"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section id="contact" class="section contact-section">
+        <h2>Contact Me</h2>
+
+        <p id="formMessage" style="font-weight:600; margin-bottom:10px;"></p>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" />
+            <input type="email" id="email" placeholder="Your Email" />
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
