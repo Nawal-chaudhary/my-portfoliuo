@@ -111,3 +111,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+
+/* ================== PROJECT CARD CLICK ================== */
+const projects = document.querySelectorAll(".project-card");
+
+projects[0].addEventListener("click", () => {
+    window.location.href = "https://en.wikipedia.org/wiki/Facial_recognition_system"; 
+});
+
+projects[1].addEventListener("click", () => {
+    window.location.href = "https://www.flaticon.com/free-icon/weather-app_7133364";
+});
+
